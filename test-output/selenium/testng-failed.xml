@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [selenium]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="Url" value="https://www.instagram.com/"/>
+    <classes>
+      <class name="com.qa.testscript.instagaram">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.qa.testscript.instagaram -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [selenium] -->
